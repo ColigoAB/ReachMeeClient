@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.1</Version>
+    <Authors>Tim Nilimaa-Svärd</Authors>
+    <Company>Coligo AB</Company>
+    <Product>ReachMee API Client</Product>
+    <RepositoryUrl>https://github.com/ColigoAB/ReachMeeClient.git</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/ColigoAB/ReachMeeClient/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/ColigoAB/ReachMeeClient</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageId>Coligo.ReachMeeClient</PackageId>
+    <PackageTags>ReachMee</PackageTags>
+    <NeutralLanguage></NeutralLanguage>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
